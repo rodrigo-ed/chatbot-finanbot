@@ -1,7 +1,10 @@
 # FinanBot - README
 
 ## Descrição
-FinanBot é um assistente virtual especializado em educação financeira. O objetivo do projeto é ajudar os usuários a gerenciar suas finanças pessoais, oferecendo funcionalidades como gerenciamento de metas, lembretes, geração de gráficos para visualização de gastos e interação via chat.
+O FinanBot é um chatbot inteligente desenvolvido para promover educação financeira acessível, empática e personalizada para a população em geral. Utilizando inteligência artificial generativa (Google Gemini API), a aplicação responde a dúvidas financeiras de maneira clara, prática e segura, ajudando pessoas a tomarem melhores decisões sobre orçamento, dívidas, investimentos e planejamento pessoal.
+
+## Problema Social Abordado:
+A falta de educação financeira ainda afeta milhões de pessoas, levando a endividamento, ausência de planejamento e má gestão dos recursos pessoais. O FinanBot surge como uma alternativa tecnológica inclusiva e escalável, promovendo o conhecimento financeiro para todas as faixas da sociedade, especialmente populações com menos acesso a consultoria especializada.
 
 ## Principais Tecnologias
 - Python 3.10
