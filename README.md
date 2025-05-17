@@ -28,14 +28,6 @@ FinanBot
 └── README.md                # Documentação
 ```
 
-## 📸 Preview
-Desktop	Mobile
-<img src="https://github.com/rodrigo-ed/chatbot-finanbot.wiki.git" width="200" height="150">
-
-
-Desktop Preview	Mobile Preview
-
-
 ## Funcionalidades
 
 ### Chat Interativo
