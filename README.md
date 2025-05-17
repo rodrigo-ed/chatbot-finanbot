@@ -30,7 +30,7 @@ FinanBot
 
 ## 📸 Preview
 Desktop	Mobile
-<img src="![Versão mobile do FinanBot](![Versão mobile do FinanBot](https://github.com/rodrigo-ed/chatbot-finanbot/blob/main/img/img-mobile.png))" width="100%" height="100%">
+<img src="https://github.com/rodrigo-ed/chatbot-finanbot.wiki.git" width="200" height="150">
 
 
 Desktop Preview	Mobile Preview
