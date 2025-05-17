@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FinanBot - Seu assistente de educação financeira inteligente">
+    <title>FinanBot - Educação Financeira</title>
+    <!--Link para o arquivo CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome (Ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            <i class="fas fa-robot"></i>
+            FinanBot - Educação Financeira
+        </h1>
+    </header>
+
+    <main class="chat-container">
+        <div class="chat-window">
+            <div class="chat-messages" id="chat">
+                <!-- Mensagens serão adicionadas aqui dinamicamente -->
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="message-input" placeholder="Digite sua mensagem sobre finanças..."
+                    aria-label="Digite sua mensagem" autocomplete="off">
+                <button id="send-button" aria-label="Enviar mensagem">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>FinanBot © 2025 - Seu assistente financeiro inteligente</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>
