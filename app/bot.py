@@ -24,7 +24,7 @@ class FinanBot:
         
     
     def configure(self):
-        api_key = os.getenv("GEMINI_API_KEY") or "AIzaSyA8GtYLS36IFGdtegEJpZOCxuzJMK5N_eY"
+        api_key = os.getenv("GEMINI_API_KEY") or " Coloque a sua chave api aqui"
         genai.configure(api_key=api_key)
     
     def setup_model(self):
